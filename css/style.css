@@ -1,13 +1,15 @@
 /* Enter your Styles below! */
 
-
+.navbar{
+	position:;
+}
 body { 
-	font-family: Helvetica, sans-serif;
+	font-family: 'Big Shoulders Text', cursive;
 	font-size: 16px;
 	 }
 
 h1, h2, h3, h4 {
-	font-family: Helvetica, sans-serif;
+	font-family: 'Supermercado One', cursive;
 }
 
 h1 {
@@ -27,19 +29,49 @@ h4 {
 
 blockquote {
 	margin: 20px 60px;
-	font-family: Helvetica, sans-serif;
+	font-family: 'Big Shoulders Text', cursive;
 }
 
 header {margin-bottom: 20px;}
+body {
+  align-items: center;
+  height: 90vh;
+}
+
+.text-line {
+  stroke-dasharray: 500;
+  stroke-dashoffset: 500;
+  animation: dash 5s linear forwards, filling 3s ease-in forwards;
+  font-size: 80px;
+ 
+}
+
+.text-line text {
+  font-family: 'Supermercado One', cursive;
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+@keyframes dash {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+@keyframes filling {
+  0%, 100% { fill: #003300; fill-opacity: 0%; }
+  100% { fill: #003300; fill-opacity: 100%; }
+}
 
 /* ensures that your images stretch the width of their containers */
 img { width: 100%; }
 
 a { 
-	color: red;
+	color: #003300;
 	text-decoration: none;
 	 }
-a:hover { color: black; }
+a:hover { color: white; }
 
 .grid {
 	display: grid;
@@ -83,6 +115,7 @@ a:hover { color: black; }
 }
 
 }
+
 /*
 font-family: 'Mansalva', cursive;
 font-family: 'Dosis', sans-serif;
