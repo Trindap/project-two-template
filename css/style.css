@@ -1,12 +1,14 @@
 /* Enter your Styles below! */
 
-.navbar{
-	position:;
-}
 body { 
 	font-family: 'Big Shoulders Text', cursive;
 	font-size: 16px;
+	background-image:url(../images/brickwall.png);
+	background-color:red;
 	 }
+.logoimg{
+	width:100px;
+position:flex; }
 
 h1, h2, h3, h4 {
 	font-family: 'Supermercado One', cursive;
@@ -27,6 +29,18 @@ h4 {
 	font-size: 24px;
 }
 
+ul{
+	background-color:pink;
+	width:100%;
+
+}
+li{
+
+display: inline-grid;
+height: 75px;
+grid-template-columns:repeat(4, 1fr); 
+grid-template-rows: 100%;
+}
 blockquote {
 	margin: 20px 60px;
 	font-family: 'Big Shoulders Text', cursive;
@@ -43,6 +57,7 @@ body {
   stroke-dashoffset: 500;
   animation: dash 5s linear forwards, filling 3s ease-in forwards;
   font-size: 80px;
+
  
 }
 
@@ -50,7 +65,7 @@ body {
   font-family: 'Supermercado One', cursive;
   font-weight: normal;
   font-style: normal;
-
+outline-color:#003300;
 }
 
 @keyframes dash {
@@ -69,6 +84,7 @@ img { width: 100%; }
 
 a { 
 	color: #003300;
+	stroke-color:white;
 	text-decoration: none;
 	 }
 a:hover { color: white; }
@@ -112,6 +128,13 @@ a:hover { color: white; }
 @media only screen and (min-width: 1200px){
 	body{
 		background-color:pink;
+}
+.grid {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-gap: 40px;
+	width: 60%;
+	margin: auto;
 }
 
 }
