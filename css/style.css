@@ -35,7 +35,7 @@ body {
 	background-color:red;
 	 }
 .logoimg{
-	width:100px;
+	width:40px;
 	display:block;
 	margin: auto;
  }
@@ -70,7 +70,7 @@ p{
 	font-size:18px;
 }
 li{
-	display: inline-grid;
+	display: inline;
 	height: 30px;
 	padding:10px;
 	/*grid-template-columns:repeat(4, 1fr);*/ 
