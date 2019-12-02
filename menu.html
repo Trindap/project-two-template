@@ -18,7 +18,7 @@
 	<!-- These semantic tags were added to help you get started but you are very welcome to delete any of them and do your own thing -->
 	<header>
 		<!-- header, h1, logo etc content -->
-		<h1>Menu</h1>
+		<h1 class="simply-2">Menu</h1>
 	</header>
 	<nav>
 		<!--<button class="hamburger--arrow is-active" type="button">
@@ -28,11 +28,13 @@
 </button>-->
 		<!-- Global naviagtion stuff here, but move this or delete this to your liking. Same goes for the rest -->
 		<ul>
-			<li class="navbar"><a href="index.html"><h3>Home</h3></a></li>
-			<li class="navbar"><a href="menu.html"><h3>Menu</h3></a></li>
-			<li class="navbar"><a href="about.html"><h3>About</h3></a></li>
-			<li class="navbar"><a href="gardens.html"><h3>Gardens</h3></a></li>
-			<li class="navbar"><a href="art.html"><h3>Art</h3></a></li>
+			<div class="topnav">
+			<li class="navbar"><a href="menu.html" class="active"><h3>Menu</h3></a></li>
+			<li class="navbar"><a href="about.html" class="active"><h3>About</h3></a></li>
+			<div class="topnav-centered"><li><a href="index.html" class="active"><img src="images/logo2.png" class="logoimg" alt="logo" ></a></li></div>
+			<div class="topnav-right"><li class="navbar" class="active"><a href="gardens.html"><h3>Gardens</h3></a></li></div>
+			<div class="topnav-right"><li class="navbar" class="active"><a href="art.html"><h3>Art</h3></a></li></div>
+			</div>
 		</ul>
 	</nav>
 	<main>
