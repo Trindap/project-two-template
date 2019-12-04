@@ -3,14 +3,37 @@ body {
 	font-family: 'Big Shoulders Text', cursive;
 	font-size: 16px;
 	background-image:url(../images/brickwall.png);
-	background-color:red;
 	 }
 .logoimg{
 	width:40px;
 	display:block;
 	margin: auto;
  }
+ /* Style the button that is used to open and close the collapsible content */
+.collapsible {
+  /*background-color: #003300;*/
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
 
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .collapsible:hover {
+  background-color: #003300;
+}
+
+/* Style the collapsible content. Note: hidden by default */
+.content {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: white;
+} 
 h1, h2, h3, h4 {
 	font-family: 'Supermercado One', cursive;
 }
@@ -21,10 +44,12 @@ h1 {
 
 h2 {
 	font-size: 36px;
+	color:white;
 }
 
 h3 {
 	font-size: 28px;
+	color:white;
 }
 h4 {
 	font-size: 24px;
@@ -40,6 +65,7 @@ ul{
 p{
 	font-size:18px;
 }
+
 /*li{
 	display: inline-grid;
 	text-align:center; 
@@ -109,6 +135,10 @@ body {
 }
 main{
 	padding:20px;}
+	
+.catering{
+	grid-row:span;
+}
 
 .simply{
 	width:100%;
@@ -188,7 +218,7 @@ a:hover { color: gold; }
 }
 
 .grid div {
-	background-color: #ccc;
+	background-color: #003300;
 	padding: 20px;
 }
 @media only screen and (min-width: 768px){
@@ -204,7 +234,7 @@ a:hover { color: gold; }
 }
 
 .grid div {
-	background-color: #ccc;
+	background-color: #003300;
 	padding: 20px;
 }
 
@@ -221,7 +251,7 @@ a:hover { color: gold; }
 }
 .grid {
 	display: grid;
-	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-template-columns: 1fr 1fr;
 	grid-gap: 40px;
 	width: 60%;
 	margin: auto;

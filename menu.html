@@ -39,9 +39,8 @@
 	</nav>
 	<main>
 <div class="grid">
-	<div class="menu"><h2>Catering</h2></div>
-	<p>
-
+	<div class="catering"><h2>Catering</h2></div>
+	<p class="catering">
 
 Singer Hill is a unique venue for social gatherings and business meetings!
 
@@ -53,12 +52,9 @@ Consider the seasonal Singer Hill Art Garden, which features vertical gardens an
 </p>
 <img src="images/seating2.jpg" alt="s2">
 <div class="menu"><h2>Menu</h2></div>
-<div class="menu"><h2>Hot Sandwiches</h2></div>
-Comes with either Chips and Pickle or our signature Sesame Slaw 
-<!--<div class="container" onclick="myFunction(this)">
-<div class="bar1"></div>
-<div class="bar2"></div>
-<div class="bar3"></div></div>-->
+<button type="button" class="collapsible"><div class="menu"><h2>Hot Sandwiches</h2></div></button>
+<div class="content">
+	Comes with either Chips and Pickle or our signature Sesame Slaw 
 <div class="menu"><h3>Reuben</h3></div>
 Pastrami, sauerkraut, thousand island dressing and Swiss cheese grilled to perfection on marbled rye bread
 <div class="menu"><h3>Turkey Melt</h3></div>
@@ -74,8 +70,10 @@ Sliced ham, havarti cheese, sliced fresh pear, light mayo, all perfectly grilled
 <div class="menu"><h3>Grilled Cheese</h3></div>
 Tillamook cheddar cheese grilled to absolute perfection on classic white bread
 Substitute Morningstar Veggie Patty
+</div>
 
-<div class="menu"><h2>Cold Sandwhiches</h2></div>
+<button type="button" class="collapsible"><div class="menu"><h2>Cold Sandwhiches</h2></div></button>
+<div class="content">
 Comes with either Chips and Pickle or our signature Sesame Slaw
 <div class="menu"><h3>Turkey Wrap</h3></div>
 Turkey, Swiss cheese, lettuce & tomato, spread with cream cheese, and all wrapped in a spinach tortilla. Add Bacon option
@@ -91,8 +89,10 @@ Turkey, cream cheese, lettuce and cranberry dressing on rustic bread
 Turkey, provolone cheese, lettuce and tomato on Dave’s Killer Bread
 <div class="menu"><h3>Seasonal Cold Veggie Sandwich</h3></div>
 Seasonal veggies on Dave’s bread with your choice of cream cheese or hummus.
+</div>
 
-<div class="menu"><h2>Soups</h2></div>
+<button type="button" class="collapsible"><div class="menu"><h2>Soups</h2></div></button>
+<div class="content">
 <div class="menu"><h3>Soup – small cup</h3></div>
 <div class="menu"><h3>Soup – large cup</h3></div>
 Comes with saltines
@@ -102,8 +102,10 @@ Made in the Singer Hill kitchen each day.
 Delicious spicy chili. Vegan and gluten free.
 <div class="menu"><h3>Soup & Salad</h3></div>
 A side salad & a cup of soup, served with toasted rustic bread or oyster crackers
+</div>
 
-<div class="menu"><h2>Salads</h2></div>
+<button type="button" class="collapsible"><div class="menu"><h2>Salads</h2></div></button>
+<div class="content">
 <div class="menu"><h3>Hummus Platter</h3></div>
 Hummus served with toasted rustic bread, Sesame chips & seasonal veggies
 <div class="menu"><h3>Asian Chicken Salad</h3></div>
@@ -120,8 +122,10 @@ Mixed greens, cucumber, tomato, red onion & topped with croutons. Served with yo
 Green and red cabbage, green onion, sesame seeds & toasted almonds Tossed with sesame dressing
 <div class="menu"><h3>Soup & Salad</h3></div>
 A side salad & a cup of soup, served with toasted rustic bread or oyster crackers
+</div>
 
-<div class="menu"><h2>Breakfest</h2></div>
+<button type="button" class="collapsible"><div class="menu"><h2>Breakfest</h2></div></button>
+<div class="content">
 Bagles by Portland Bagel Co.
 <div class="menu"><h3>Quiche</h3></div>
 Our quiches are made entirely from scratch & include a side of seasonal fruit
@@ -142,8 +146,10 @@ Low-fat vanilla yogurt topped with Berries and raisin almond Granola
 <div class="menu"><h3>Side of Fruit</h3></div>
 A beautiful variety of delicious fruits served in a boat dish
 Substitute Morningstar Veggie Patty
+</div>
 
-<div class="menu"><h2>Pastries</h2></div>
+<button type="button" class="collapsible"><div class="menu"><h2>Pastries</h2></div></button>
+<div class="content">
 We cook some pastries here, and order in the rest from Marsee Bakery
 
 <div class="menu"><h3>From Our Bakery</h3></div>
@@ -174,8 +180,10 @@ Gluten Free Pastries
 Brownies
 Macaroons
 Chocolate Mouse
+</div>
 
-<div class="menu"><h2>Drinks</h2></div>
+<button type="button" class="collapsible"><div class="menu"><h2>Drinks</h2></div></button>
+<div class="content">
 Coffee, Espresso & More
 We only serve Stumptown Coffee
 <div class="menu"><h3>Coffee</h3></div>
@@ -210,7 +218,8 @@ Assorted Bottled Beer
 Glass of House Red or White Wine
 Locally produced wine
 
-<div class="menu"><h2>Glueten Free</h2></div>
+<button type="button" class="collapsible"><div class="menu"><h2>Glueten Free</h2></div></button>
+<div class="content">
 <div class="menu"><h3>Gluten Free Pastries</h3></div>
 Brownies
 Macaroons
@@ -227,14 +236,15 @@ Piping hot steel cut oats served with sides of milk (dairy or non-dairy), brown 
 <div class="menu"><h3>Side of Fruit</h3></div>
 A beautiful variety of delicious fruits served in a boat dish
 Substitute Gluten-free Tortilla for Bread option
+</div>
 
-<div class="menu"><h2>Kids Menu</h2></div>
+<button type="button" class="collapsible"><div class="menu"><h2>Kids Menu</h2></div></button>
+<div class="content">
 <div class="menu"><h3>Kid’s Grilled Cheese</h3></div>
 Served with chips or applesauce
 <div class="menu"><h3>Peanut Butter and Jelly</h3></div>
 Peanut butter and marionberry jam on multi-grain bread.
-
-
+</div>
 	
 </div>
 	</main>
