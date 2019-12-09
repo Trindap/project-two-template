@@ -4,6 +4,8 @@ body {
 	font-size: 16px;
 	background-image:url(../images/brickwall.png);
 	 }
+
+
 .logoimg{
 	width:40px;
 	display:block;
@@ -11,8 +13,8 @@ body {
  }
  /* Style the button that is used to open and close the collapsible content */
 .collapsible {
-  /*background-color: #003300;*/
-  color: white;
+
+  color: #003300;
   cursor: pointer;
   padding: 18px;
   width: 100%;
@@ -32,8 +34,36 @@ body {
   padding: 0 18px;
   display: none;
   overflow: hidden;
-  background-color: white;
+  background-color: #003300;
 } 
+
+
+.menu{
+	grid-template-columns: 1fr;
+	
+	padding:20px;
+}
+.garden img{
+	width:500px;
+	padding:20px;
+	display:block;
+	margin:auto;
+
+}
+.artg img{
+	width:600px;
+	padding:20px;
+	display:block;
+	margin:auto;
+}
+
+.art{
+	text-align:center;
+	padding:20px;
+	font-size:24px;
+	display:block;
+	margin:auto;
+}
 h1, h2, h3, h4 {
 	font-family: 'Supermercado One', cursive;
 }
@@ -66,15 +96,7 @@ p{
 	font-size:18px;
 }
 
-/*li{
-	display: inline-grid;
-	text-align:center; 
-	margin:auto;
-	height: 30px;
-	padding:10px;
-	/*grid-template-columns:repeat(4, 1fr);
-	grid-template-rows: 100%;
-}*/
+
 .topnav {
   position: relative;
   overflow: hidden;
@@ -120,6 +142,7 @@ blockquote {
 	font-family: 'Big Shoulders Text', cursive;
 }
 footer{
+	display:inline-block;
 	padding:20px;
 }
 
@@ -154,7 +177,7 @@ main{
 }
 .frontview{
 	width:100%;
-padding-bottom:20px; }
+}
 
 element{
 	position: relative;
@@ -205,7 +228,9 @@ a {
 	stroke-color:white;
 	text-decoration: none;
 	 }
-a:hover { color: gold; }
+a:hover { 
+	color: gold; 
+}
 
 
 
@@ -222,9 +247,6 @@ a:hover { color: gold; }
 	padding: 20px;
 }
 @media only screen and (min-width: 768px){
-	body{
-		background-color:skyblue;
-}
 .grid {
 	display: grid;
 	grid-template-columns: 1fr 1fr;
@@ -240,18 +262,13 @@ a:hover { color: gold; }
 
 }
 @media only screen and (min-width: 1024px){
-	body{
-		background-color:salmon;
-}
 
 }
 @media only screen and (min-width: 1200px){
-	body{
-		background-color:pink;
-}
+
 .grid {
 	display: grid;
-	grid-template-columns: 1fr 1fr;
+	grid-template-columns:1fr;
 	grid-gap: 40px;
 	width: 60%;
 	margin: auto;
