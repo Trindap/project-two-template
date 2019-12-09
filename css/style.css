@@ -64,20 +64,34 @@ body {
 	display:block;
 	margin:auto;
 }
+.about{
+		text-align:center;
+	padding:20px;
+	font-size:24px;
+	display:block;
+	margin:auto;
+
+}
+
+.cat{
+	padding:20px;
+}
 h1, h2, h3, h4 {
 	font-family: 'Supermercado One', cursive;
 }
 
 h1 {
-	font-size: 48px;
+	font-size: 56px;
 }
 
 h2 {
+
 	font-size: 36px;
 	color:white;
 }
 
-h3 {
+h3 {	
+	padding:10px;
 	font-size: 28px;
 	color:white;
 }
@@ -85,6 +99,12 @@ h4 {
 	font-size: 24px;
 	color:#003300;
 
+}
+h5{
+	margin:auto;
+	padding:20px;
+	font-size:18px;
+	color:white;
 }
 
 ul{
@@ -135,7 +155,7 @@ p{
     left: 0;
     transform: none;
   }
-}}
+}
 
 blockquote {
 	margin: 20px 60px;
@@ -221,8 +241,11 @@ outline-color:#003300;
 }
 
 /* ensures that your images stretch the width of their containers */
-img { width: 100%; }
-
+img { max-width: 100%; }
+.social{
+	width:50px;
+	padding:20px;
+}
 a { 
 	color: white;
 	stroke-color:white;
